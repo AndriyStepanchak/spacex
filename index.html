@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>SpaceX Control Panel</title>
+  <meta name="author" content="CURSOR Education">
+  <link rel="stylesheet" href="main.css"> 
+
+</head>
+<body>
+    <div class="container"> 
+        <div id="header" class="row">
+            <div id="crew-block" class="block header">
+                <div class="header-text">
+                    <small class="header-title">Crew</small>
+                    <div class="header-value">Dragon</div>
+                </div>
+            </div>
+            <div id="perigee-block" class="block header">
+                <div class="header-text">
+                    <small class="header-title">Perigee</small>
+                    <div class="header-value">185.013<span>m</span></div>
+                </div>
+                <div class="header-icon">
+                  <i class="icon icon-minus"></i>
+                </div>
+            </div>
+            <div id="apogee-block" class="block header">
+                <div class="header-text">
+                    <small class="header-title">Apogee</small>
+                    <div class="header-value">360.304<span>m</span></div>
+                </div>
+                <div class="header-icon">
+                  <i class="icon icon-minus"></i>
+                </div>
+            </div>
+            <div id="relative-altitude-block" class="block header">
+                <div class="header-text">
+                    <small class="header-title">Relative Altitude</small>
+                    <div class="header-value">50,948<span>m</span></div>
+                </div>
+                <div class="header-icon">
+                  <i class="icon icon-arrow-bottom"></i>
+                </div>
+            </div>
+            <div id="range-to-iss-block" class="block header">
+                <div class="header-text">
+                    <small class="header-title">Range to ISS</small>
+                    <div class="header-value">625,713<span>m</span></div>
+                </div>
+                <div class="header-icon">
+                  <i class="icon icon-arrow-bottom"></i>
+                </div>
+            </div>
+        </div>
+        <div id="planet-view" class="row">
+                <img class="planet-view-image" src="https://cdn.theatlantic.com/assets/media/img/mt/2018/08/iss050e066094_large/lead_720_405.jpg?mod=1535549776" alt="planet">
+        </div> 
+        <div id="current-time" class="row">
+            <div id="current-time-day" class="block-current-time">
+                <div class="current-time-text">
+                    <small class="day-small">Day 131</small>
+                    <div class="time">13:46:11</div>
+                </div>
+            </div>
+            <div id="current-time-chart" class="block-current-time">
+                <div class="current-time-graphic">
+                <img src="graphic.jpg" alt="planet">
+                </div>
+            </div>
+            <div id="current-time-next-burn" class="block-current-time">  
+                <div class="current-time-text">
+                    <small class="burn-small">Next Burn</small>
+                    <small class="enabled-small">Enabled &#x26AA</small>
+                </div>
+                <div id="current-time-countdown"> 
+                    <div class="current-time-text">
+                        <div class="countdown">-0:05:48</div>
+                    </div>
+                </div>    
+                <div id="current-time-different" > 
+                    <div class="current-time-text">
+                        <small class="different-small">13:52:00</small>
+                        <small class="different-day-small">Day 131</small>
+                    </div>
+                </div>
+            </div>     
+            <div id="current-time-target" class="block-current-time"> 
+                <div class="current-time-text">
+                    <small class="target-small">Target V</small>
+                </div>
+                <div id="current-time-speed" >
+                    <div class="current-time-text">
+                    <div class="speed">33.5 m/s</div>  
+                </div>   
+                <div id="current-time-temps" >
+                    <div class="current-time-text">
+                    <small class="temps-small">Thruster Temps</small>
+                   </div>
+                </div>
+             </div>
+           </div>  
+        </div>  
+        <div id="alarm" class="row">
+              <div class="left-alarm-0">0</div>
+              <div class="left-alarm">alarms</div>
+              <div class="right-alarm">All systems nominal</div>                 
+              <div class="right-alarm-check">&#10003 </div>
+        </div>  
+        <div id="next-actions" class="row">
+            <div class="countdown-next-actions">-0:08:24</div>
+            <div class="los-next-actions">
+                <div>Next LOS </div>
+                <div>(00:03:17)</div>
+            </div>
+            <div class="time-next-actions">
+                <div>13:54:36</div>
+                <div>Day 131</div>
+            </div>
+            <div id="deorbit-next-actions" class="row">
+                <div class="countdown-deorbit">-0:23:23</div>
+                <div class="deorbit">Next Deorbit Window Pacific</div>
+                <div class="deorbit-day" >14:09:36 Day 131</div>
+            </div> 
+        </div>  
+    </div>               
+</body>
+</html>
