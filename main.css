@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:300|Robot:300');
+    
+* { padding: 0; margin: 0; border: 0; }
+
+.container {
+    width: 720px;
+    font-family: 'Robot', sans-serif;
+    font-size: 16px;
+    background: rgb(116,140,171);
+    color: #fff;
+}
+
+.row {
+    display: flex;
+}
+.row .block {
+    flex-grow:1;
+}
+
+.header {
+    display: flex;
+    background-image: linear-gradient(to bottom, rgb(131,151,185), rgb(90,112,137));
+    border: 2px rgb(98,118,146) solid;
+}
+.header-text {
+    padding: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.header-title { font-size: 12px; }
+.header-value {
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    line-height: 30px;
+    margin-top: 6px;
+}
+.header-value span {
+    color: rgb(183,232,238);
+}
+#crew-block .header-value {
+    text-transform: uppercase;
+    
+}
+                   
+#crew-block{
+    background:rgb(152,181,211);
+}
+
+        .header-icon {
+          display: flex;
+          align-self: center;
+          height: 60%;
+        }
+
+        .icon {
+          display: inline-block;
+          background: rgb(183,232,238);
+          width: 10px;
+          height: 10px;
+        }
+        .icon.icon-minus {
+          width: 18px;
+          height: 8px;
+        }
+        .icon.icon-arrow-bottom {
+          width: 8px;
+          height: 18px;
+        }
+                    
+.block-current-time {
+    background-image: linear-gradient(to bottom, rgb(131,151,185), rgb(90,112,137));
+    border: 2px rgb(98,118,146) solid;
+    height: 100px;
+    
+}
+.current-time-text {
+     padding: 20px;
+     padding-top: 2px;
+     padding-bottom: 2px;
+}
+.time {
+    width: 180px;
+    font-family: 'Teko', sans-serif;
+    font-size: 55px;
+    line-height: 50px;
+    margin-top: 6px;
+}
+#current-time-chart {
+    width: 150px;
+}
+#current-time-next-burn {
+    width: 185px;
+}
+.enabled-small {
+    color: rgb(183,232,238);
+    padding-left: 10px;
+    
+}
+.countdown {
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    line-height: 35px;
+}
+.different-day-small {
+    padding-left: 10px;
+}
+.speed {
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    line-height: 35px;
+    padding-right: 24px;
+}
+.temps-small {
+     color: rgb(183,232,238);
+}
+#alarm {
+    background-image: linear-gradient(to bottom, rgb(131,151,185), rgb(90,112,137));
+    border: 2px rgb(98,118,146) solid;
+    height: 75px;
+    display: flex;
+    padding: 15px;
+    color: rgb(217,243,245);
+}
+
+.left-alarm-0 {
+    font-family: 'Teko', sans-serif;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+    padding-right: 12px;  
+}
+.left-alarm {
+    width: 330px;
+    font-family: 'Teko', sans-serif;
+    font-size: 38px;
+    line-height: 70px;
+    padding-right: 24px;
+    text-transform: uppercase;
+    
+}
+.right-alarm {
+    font-family: 'Teko', sans-serif;
+    font-size: 38px;
+    line-height: 70px;
+    text-transform: uppercase;
+    padding-right: 20px;
+    
+}
+.right-alarm-check {
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    line-height: 80px;
+    text-transform: uppercase;
+}
+#next-actions {
+    background-image: linear-gradient(to bottom, rgb(131,151,185), rgb(90,112,137));
+    border: 2px rgb(98,118,146) solid;
+    height: 75px;
+    display: flex;
+    padding: 5px;
+    width: 340px;
+}
+.countdown-next-actions {
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    line-height: 35px;
+    line-height: 80px;
+    padding-right: 10px;
+}
+.los-next-actions  {
+     padding-right: 10px;
+     padding-top: 20px;
+     color: rgb(217,243,245);
+     font-size: 15px;
+}
+.time-next-actions {
+     padding-left: 90px;
+     padding-top: 18px;
+     color: rgb(217,243,245);
+     font-size: 15px;
+}
+#deorbit-next-actions {
+    border-bottom: 2px rgb(98,118,146) solid;
+    height: 80px;
+    display: flex;
+    width: 350px;
+    margin-left: 40px; 
+}
+.countdown-deorbit {
+    font-family: 'Teko', sans-serif;
+    font-size: 35px;
+    line-height: 35px;
+    line-height: 80px;
+    padding-right: 10px;
+}
+.deorbit {
+    padding-right: 5px;
+    padding-top: 18px;
+    color: rgb(217,243,245);
+    width: 280px;
+    font-size: 15px;
+}
+.deorbit-day {
+     padding-top: 18px;
+     color: rgb(217,243,245);
+     font-size: 15px;
+     padding-left: 20px;
+}
